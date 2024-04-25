@@ -4,3 +4,9 @@
     font-family: 'Verdana';
     box-sizing: border-box;
 }
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d3d56, #500d3d);
+    padding: 10px;
+}
