@@ -1,52 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    color: #161616;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #161616;
+  box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #0d3d56, #5d0043);
-    padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d3d56, #5d0043);
+  padding: 10px;
 }
 .tarefas {
-    width: 100%;
-    max-width: 540px;
-    background: #edeef0;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 540px;
+  background: #edeef0;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 20px;
 }
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #edeef0;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  margin-bottom: 25px;
 }
 input {
-    flex: 1;
-    border: none;
-    outline: none;
-    background: transparent;
-    background-color: #e0e0e0;
-    padding: 10px;
-    font-weight: 14px;
-    border-width: 40px;
-    border-radius: 40px 0 0 40px;
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #e0e0e0;
+  padding: 12px;
+  font-weight: 14px;
+  border-width: 40px;
+  border-radius: 40px 0 0 40px;
 }
 button {
-    border: none;
-    outline: none;
-    padding: 8px 50px;
-    background: #b10e0e;
-    color: #dedede;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 0 40px 40px 0;
+  border: none;
+  outline: none;
+  padding: 10px 50px;
+  background: #b10e0e;
+  color: #dedede;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 40px 40px 0;
 }
