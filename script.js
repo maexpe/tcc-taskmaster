@@ -14,6 +14,8 @@ function addTask() {
         li.appendChild(span);
     }
     inputBox.value = "";
+    
+    saveData();
 }
 
 document.addEventListener('keydown', function(event) {
@@ -29,4 +31,16 @@ listContainer.addEventListener("click", function(e) {
     } else if (e.target.tagName === "SPAN") {
         e.target.parentElement.remove();
     }
+    
+    saveData();
 }, false);
+
+function saveData() {
+    localStorage.setItem("data", listContainer.innerHTML);
+}
+
+function getData() {
+    listContainer.innerHTML = localStorage.getItem("data");
+}
+
+getData();
