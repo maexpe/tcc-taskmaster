@@ -10,3 +10,10 @@ function addTask() {
         listContainer.appendChild(li);
     }
 }
+
+document.addEventListener('keydown', function(event) {
+    const enterKey = 'Enter';
+    if (event.key === enterKey) {
+        addTask();
+    }
+});
