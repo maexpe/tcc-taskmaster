@@ -76,3 +76,16 @@ ul li.checked {
 ul li.checked::before {
   content: "✅";
 }
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+}
+ul li span:hover {
+  background: #edeef0;
+}
